@@ -9,7 +9,9 @@ program futbolito{
 	game.width(20)
 	game.height(10)
 	keyboard.enter().onPressDo({game.say(lionel, "Vamos Argentina")})
+	keyboard.e().onPressDo({pelota.esquina()})
 	game.start()
+	
 
 
 }
