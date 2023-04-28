@@ -1,0 +1,11 @@
+import objetos.*
+import wollok.game.*
+
+
+test "burca pelota" {
+
+	lionel.position(game.at(2,3))
+	pelota.position(game.at(7,5))
+	lionel.buscar(pelota)
+	assert.equals(game.at(7,5), lionel.position())
+}
