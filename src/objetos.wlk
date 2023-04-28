@@ -20,11 +20,3 @@ object pelota {
 		position = game.at(0,0)
 	}		
 }
-
-
-
-
-
-
-
-
