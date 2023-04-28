@@ -8,6 +8,9 @@ object lionel {
 	method image() {
 		return "lionel-titular.png"
 	}
+	method buscar(algo) {
+		position = algo.position()
+	}
 	
 }
 

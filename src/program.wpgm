@@ -10,6 +10,7 @@ program futbolito{
 	game.height(10)
 	keyboard.enter().onPressDo({game.say(lionel, "Vamos Argentina")})
 	keyboard.e().onPressDo({pelota.esquina()})
+	keyboard.b().onPressDo({lionel.buscar(pelota)})
 	game.start()
 	
 
